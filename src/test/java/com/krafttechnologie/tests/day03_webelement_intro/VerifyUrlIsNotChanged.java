@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class VerifyUrlIsNotChanged {
     public static void main(String[] args) throws InterruptedException {
 
-        /**  Class Task
+        /**  Class Task 1
          * open Chrome Browser
          * go to  https://www.krafttechexlab.com/login   page
          * click on login button
