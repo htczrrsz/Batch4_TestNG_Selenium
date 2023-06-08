@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class OpenBrowser {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
 //      make selenium ready to talk with Chrome
         WebDriverManager.chromedriver().setup();
@@ -29,5 +29,7 @@ public class OpenBrowser {
             System.out.println("FAIL");
         }
 
+//        Thread.sleep(3000);
+//        driver.quit();
     }
 }

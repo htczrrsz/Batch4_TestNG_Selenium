@@ -10,25 +10,18 @@ public class CloseAndQuit {
 
 
         WebDriverManager.safaridriver().setup();
-
         WebDriver driver= new SafariDriver();
 
         driver.navigate().to("https://krafttechexlab.com");
-
         driver.manage().window().maximize();
-
         Thread.sleep(3000);
-
 //      close the driver with close() method
         driver.close();
 
-
         WebDriverManager.chromedriver().setup();
         WebDriver driver1 = new ChromeDriver();
-
         driver1.get("https://www.amazon.com");
         Thread.sleep(3000);
-
 //      close the driver with quit method --> all windows
         driver1.quit();
 
