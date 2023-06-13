@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="added : verify username is correct">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/GetAttribute.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="added : getAttribute">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/Exercise_demoqa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/ClassNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/IdLocatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/LinkTextAndPartialLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/NameDuplicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/NameLocatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/TagNameLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day02_webdriver_basics/CloseAndQuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day02_webdriver_basics/CloseAndQuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/GetAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/GetAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +54,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GetAttribute">
-    <configuration name="GetAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.GetAttribute" />
+  <component name="RunManager" selected="Application.LinkTextAndPartialLinkText">
+    <configuration name="ClassNameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day04_basic_locators.ClassNameTest" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day04_basic_locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day01_automationintro.OpenBrowser" />
+    <configuration name="LinkTextAndPartialLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day04_basic_locators.LinkTextAndPartialLinkText" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day01_automationintro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day04_basic_locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUrlChanged" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.VerifyUrlChanged" />
+    <configuration name="NameDuplicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day04_basic_locators.NameDuplicateTest" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day04_basic_locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUrlIsNotChanged" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.VerifyUrlIsNotChanged" />
+    <configuration name="NameLocatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day04_basic_locators.NameLocatorTest" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day04_basic_locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserNameIsCorrect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.VerifyUserNameIsCorrect" />
+    <configuration name="TagNameLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day04_basic_locators.TagNameLocator" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day04_basic_locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetAttribute" />
-        <item itemvalue="Application.VerifyUserNameIsCorrect" />
-        <item itemvalue="Application.VerifyUrlChanged" />
-        <item itemvalue="Application.VerifyUrlIsNotChanged" />
-        <item itemvalue="Application.OpenBrowser" />
+        <item itemvalue="Application.LinkTextAndPartialLinkText" />
+        <item itemvalue="Application.ClassNameTest" />
+        <item itemvalue="Application.TagNameLocator" />
+        <item itemvalue="Application.NameDuplicateTest" />
+        <item itemvalue="Application.NameLocatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686249801088</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added : getAttribute">
+      <created>1686250529444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686250529444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Day" />
     <MESSAGE value="the control that url is not changed" />
     <MESSAGE value="added : verify username is correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="added : verify username is correct" />
+    <MESSAGE value="added : getAttribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="added : getAttribute" />
   </component>
 </project>

@@ -26,6 +26,8 @@ public class CloseAndQuit {
         driver1.quit();
 
 
+// close dedikten sonra tekrar driver= new safaridriver dmek gerek yoksa exception verir.
+
 
     }
 }

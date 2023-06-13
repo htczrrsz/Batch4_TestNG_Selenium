@@ -18,6 +18,7 @@ public class GetAttribute {
         // getAttribute --> give me attribute I will give you value
         String value= emailInputBox.getAttribute("class");
         System.out.println("value = " + value);
+        driver.quit();
 
 
     }
