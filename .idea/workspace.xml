@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="basic locators">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/AbsoluteXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath5.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="xpath locator">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_AttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_Contains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_EndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_MultipleAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_ParentToChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_Siblings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_css/Css_StartsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_intro/BeforeAfterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_intro/FirstTestNGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_intro/TestNGAnnotationsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeworkTask5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,89 +47,114 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.RelativeXpath5">
-    <configuration name="RelativeXpath1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day05_xpath.RelativeXpath1" />
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestNGAnnotationsDemo.test6">
+    <configuration name="BeforeAfterMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day05_xpath.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day07_testNG_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day07_testNG_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day07_testNG_intro.BeforeAfterMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeXpath2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day05_xpath.RelativeXpath2" />
+    <configuration name="BeforeAfterMethod.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day05_xpath.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day07_testNG_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day07_testNG_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day07_testNG_intro.BeforeAfterMethod" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeXpath3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day05_xpath.RelativeXpath3" />
+    <configuration name="TestNGAnnotationsDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day05_xpath.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day07_testNG_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day07_testNG_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day07_testNG_intro.TestNGAnnotationsDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeXpath4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day05_xpath.RelativeXpath4" />
+    <configuration name="TestNGAnnotationsDemo.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day05_xpath.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day07_testNG_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day07_testNG_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day07_testNG_intro.TestNGAnnotationsDemo" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeXpath5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day05_xpath.RelativeXpath5" />
+    <configuration name="TestNGAnnotationsDemo.test6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day05_xpath.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day07_testNG_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day07_testNG_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day07_testNG_intro.TestNGAnnotationsDemo" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RelativeXpath5" />
-        <item itemvalue="Application.RelativeXpath4" />
-        <item itemvalue="Application.RelativeXpath3" />
-        <item itemvalue="Application.RelativeXpath2" />
-        <item itemvalue="Application.RelativeXpath1" />
+        <item itemvalue="TestNG.TestNGAnnotationsDemo.test6" />
+        <item itemvalue="TestNG.TestNGAnnotationsDemo" />
+        <item itemvalue="TestNG.TestNGAnnotationsDemo.test4" />
+        <item itemvalue="TestNG.BeforeAfterMethod" />
+        <item itemvalue="TestNG.BeforeAfterMethod.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686627826354</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="xpath locator">
+      <created>1686686509471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686686509471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +218,7 @@
     <MESSAGE value="added : verify username is correct" />
     <MESSAGE value="added : getAttribute" />
     <MESSAGE value="basic locators" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic locators" />
+    <MESSAGE value="xpath locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="xpath locator" />
   </component>
 </project>
