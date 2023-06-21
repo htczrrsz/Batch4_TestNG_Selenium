@@ -3,6 +3,7 @@ package com.krafttechnologie.tests.day04_basic_locators;
 import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TagNameLocator {
     public static void main(String[] args) throws InterruptedException {
@@ -16,6 +17,7 @@ public class TagNameLocator {
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("[type='submit']")).click();
         Thread.sleep(1000);
+
 
         System.out.println("driver.findElement(By.tagName(\"//h2\")).getText() = " + driver.findElement(By.tagName("h2")).getText());
 //        mike

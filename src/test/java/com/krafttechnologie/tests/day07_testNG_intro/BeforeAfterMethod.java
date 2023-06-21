@@ -12,7 +12,7 @@ public class BeforeAfterMethod {
     }
 
 
-    @Test
+    @Test   (priority = 2)
     public void test1() {
         System.out.println("First Test Case");
     }
