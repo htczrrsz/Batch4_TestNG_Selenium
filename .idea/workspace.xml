@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="testNG">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/AttributeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/CheckBoxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/DisabledElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/DisplayedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/Odev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/RadioButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day09_findElement_dropdowns/DropDownWithSelectTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day09_findElement_dropdowns/DropDownWithoutSelectTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day09_findElement_dropdowns/ExerciseBySelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day09_findElement_dropdowns/ListOfElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/HtmlPopUps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/JSPopUps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/MultipleWindows.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="iframe">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/Nested_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ExplicitWaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ImplicitWaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ThreadSleepExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/TagNameLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/TagNameLocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_intro/BeforeAfterMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_intro/BeforeAfterMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/Odev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/HomeTaskHelloWorldIsDisplayed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +45,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Iframe.iframe_webElement">
-    <configuration name="Iframe.iframe_NameOrId" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExplicitWaitExample.explicitWaitTest2">
+    <configuration name="ExplicitWaitExample.explicitWaitExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.Iframe" />
-      <option name="METHOD_NAME" value="iframe_NameOrId" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample" />
+      <option name="METHOD_NAME" value="explicitWaitExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,17 +64,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Iframe.iframe_index" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExplicitWaitExample.explicitWaitTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.Iframe" />
-      <option name="METHOD_NAME" value="iframe_index" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample" />
+      <option name="METHOD_NAME" value="explicitWaitTest2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,17 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Iframe.iframe_webElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeTaskHelloWorldIsDisplayed.cozum" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day08_typeOfWebElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.Iframe" />
-      <option name="METHOD_NAME" value="iframe_webElement" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements.HomeTaskHelloWorldIsDisplayed" />
+      <option name="METHOD_NAME" value="cozum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleWindows.switchBetweenMultipleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ImplicitWaitExample.implicitWaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.MultipleWindows" />
-      <option name="METHOD_NAME" value="switchBetweenMultipleWindows" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ImplicitWaitExample" />
+      <option name="METHOD_NAME" value="implicitWaitTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleWindows.switchedBetweenTwoWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadSleepExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day10_alerts_multipleWindows_iframe.MultipleWindows" />
-      <option name="METHOD_NAME" value="switchedBetweenTwoWindows" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ThreadSleepExample" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Iframe.iframe_webElement" />
-        <item itemvalue="TestNG.Iframe.iframe_index" />
-        <item itemvalue="TestNG.Iframe.iframe_NameOrId" />
-        <item itemvalue="TestNG.MultipleWindows.switchBetweenMultipleWindows" />
-        <item itemvalue="TestNG.MultipleWindows.switchedBetweenTwoWindows" />
+        <item itemvalue="TestNG.ExplicitWaitExample.explicitWaitTest2" />
+        <item itemvalue="TestNG.ExplicitWaitExample.explicitWaitExample" />
+        <item itemvalue="TestNG.ImplicitWaitExample.implicitWaitTest" />
+        <item itemvalue="TestNG.ThreadSleepExample.test1" />
+        <item itemvalue="TestNG.HomeTaskHelloWorldIsDisplayed.cozum" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686855939188</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="iframe">
+      <created>1687375562357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687375562357</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +222,7 @@
     <MESSAGE value="basic locators" />
     <MESSAGE value="xpath locator" />
     <MESSAGE value="testNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="testNG" />
+    <MESSAGE value="iframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="iframe" />
   </component>
 </project>
