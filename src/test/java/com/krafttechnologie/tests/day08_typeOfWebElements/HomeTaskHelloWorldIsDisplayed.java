@@ -66,7 +66,7 @@ WebDriver driver= WebDriverFactory.getDriver("chrome");
         System.out.println("body.getText() = " + body.getText());
 
         Assert.assertFalse(body.getText().contains(hello));
-Thread.sleep(2000);
+        Thread.sleep(2000);
         driver.findElement(By.cssSelector("#start>button")).click();
         Thread.sleep(6000);
         System.out.println("body.getText() = " + body.getText());

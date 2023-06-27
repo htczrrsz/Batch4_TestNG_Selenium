@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="iframe">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/Nested_Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ExplicitWaitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ImplicitWaitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ThreadSleepExample.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="wait">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/ActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/JavaScriptExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/file Upload.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/Odev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/HomeTaskHelloWorldIsDisplayed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/HomeTaskHelloWorldIsDisplayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/HomeTaskHelloWorldIsDisplayed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/MultipleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/MultipleWindows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +46,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ExplicitWaitExample.explicitWaitTest2">
-    <configuration name="ExplicitWaitExample.explicitWaitExample" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FileUpload.test1">
+    <configuration name="FileUpload.fileUploadTestDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample" />
-      <option name="METHOD_NAME" value="explicitWaitExample" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.FileUpload" />
+      <option name="METHOD_NAME" value="fileUploadTestDemo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,71 +70,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitExample.explicitWaitTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileUpload.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample" />
-      <option name="METHOD_NAME" value="explicitWaitTest2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTaskHelloWorldIsDisplayed.cozum" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day08_typeOfWebElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements.HomeTaskHelloWorldIsDisplayed" />
-      <option name="METHOD_NAME" value="cozum" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImplicitWaitExample.implicitWaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ImplicitWaitExample" />
-      <option name="METHOD_NAME" value="implicitWaitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadSleepExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ThreadSleepExample" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.FileUpload" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptExecutorDemo.scrollDownAndUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="scrollDownAndUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptExecutorDemo.scrollToElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="scrollToElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptExecutorDemo.typeWithJS" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="typeWithJS" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ExplicitWaitExample.explicitWaitTest2" />
-        <item itemvalue="TestNG.ExplicitWaitExample.explicitWaitExample" />
-        <item itemvalue="TestNG.ImplicitWaitExample.implicitWaitTest" />
-        <item itemvalue="TestNG.ThreadSleepExample.test1" />
-        <item itemvalue="TestNG.HomeTaskHelloWorldIsDisplayed.cozum" />
+        <item itemvalue="TestNG.FileUpload.test1" />
+        <item itemvalue="TestNG.FileUpload.fileUploadTestDemo" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.scrollToElement" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.scrollDownAndUp" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.typeWithJS" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687375562357</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="wait">
+      <created>1687462347774</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687462347774</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +236,7 @@
     <MESSAGE value="xpath locator" />
     <MESSAGE value="testNG" />
     <MESSAGE value="iframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="iframe" />
+    <MESSAGE value="wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="wait" />
   </component>
 </project>

@@ -41,6 +41,7 @@ public class MultipleWindows {
         for (String windowHandle : windowHandles) {
             if (!currentWindow.equals(windowHandle)){
                 driver.switchTo().window(windowHandle);
+                break;
             }
 
         }
