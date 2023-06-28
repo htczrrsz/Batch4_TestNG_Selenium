@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="wait">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/ActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/JavaScriptExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/file Upload.txt" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="File Upload">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/HoverOverAlistirma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_webtables/WebTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/HomeTaskHelloWorldIsDisplayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/HomeTaskHelloWorldIsDisplayed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/MultipleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/MultipleWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/Nested_Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/Nested_Iframe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +48,18 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileUpload.test1">
-    <configuration name="FileUpload.fileUploadTestDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WebTables.test">
+    <configuration name="WebTables.getASingleCellInOneRow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.FileUpload" />
-      <option name="METHOD_NAME" value="fileUploadTestDemo" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
+      <option name="METHOD_NAME" value="getASingleCellInOneRow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,17 +67,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUpload.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.getRow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.FileUpload" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
+      <option name="METHOD_NAME" value="getRow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,17 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorDemo.scrollDownAndUp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.printAllCellsByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.JavaScriptExecutorDemo" />
-      <option name="METHOD_NAME" value="scrollDownAndUp" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
+      <option name="METHOD_NAME" value="printAllCellsByIndex" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,17 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorDemo.scrollToElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.JavaScriptExecutorDemo" />
-      <option name="METHOD_NAME" value="scrollToElement" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,17 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorDemo.typeWithJS" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.usttekininBaskaDenemesi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.JavaScriptExecutorDemo" />
-      <option name="METHOD_NAME" value="typeWithJS" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
+      <option name="METHOD_NAME" value="usttekininBaskaDenemesi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FileUpload.test1" />
-        <item itemvalue="TestNG.FileUpload.fileUploadTestDemo" />
-        <item itemvalue="TestNG.JavaScriptExecutorDemo.scrollToElement" />
-        <item itemvalue="TestNG.JavaScriptExecutorDemo.scrollDownAndUp" />
-        <item itemvalue="TestNG.JavaScriptExecutorDemo.typeWithJS" />
+        <item itemvalue="TestNG.WebTables.test" />
+        <item itemvalue="TestNG.WebTables.usttekininBaskaDenemesi" />
+        <item itemvalue="TestNG.WebTables.printAllCellsByIndex" />
+        <item itemvalue="TestNG.WebTables.getRow" />
+        <item itemvalue="TestNG.WebTables.getASingleCellInOneRow" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687462347774</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="File Upload">
+      <created>1687835242260</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687835242260</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,6 +241,7 @@
     <MESSAGE value="testNG" />
     <MESSAGE value="iframe" />
     <MESSAGE value="wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="wait" />
+    <MESSAGE value="File Upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Upload" />
   </component>
 </project>

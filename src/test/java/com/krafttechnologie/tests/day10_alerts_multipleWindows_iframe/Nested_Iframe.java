@@ -43,7 +43,7 @@ public class Nested_Iframe {
 //        go to buttom frame and get text
         driver.switchTo().defaultContent();  // to go to HTML
         driver.switchTo().frame(1);
-//        driver.switchTo().frame("frame-bottom"); indeks ya da bunu kullanabiliriz.
+//        driver.switchTo().frame("frame-bottom"); index ya da bunu kullanabiliriz.
         System.out.println("driver.findElement(By.tagName(\"body\")).getText() = " + driver.findElement(By.tagName("body")).getText());
 
 
