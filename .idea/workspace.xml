@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="File Upload">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/HoverOverAlistirma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_webtables/WebTables.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="Tables">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/Nested_Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multipleWindows_iframe/Nested_Iframe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +53,18 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebTables.test">
-    <configuration name="WebTables.getASingleCellInOneRow" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SingletonTest">
+    <configuration name="PropertiesTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day14_properties_singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
-      <option name="METHOD_NAME" value="getASingleCellInOneRow" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.PropertiesTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -67,17 +72,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.getRow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day14_properties_singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
-      <option name="METHOD_NAME" value="getRow" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.SingletonTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day14_properties_singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,17 +107,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.printAllCellsByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day14_properties_singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
-      <option name="METHOD_NAME" value="printAllCellsByIndex" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,31 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.usttekininBaskaDenemesi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.WebTables" />
-      <option name="METHOD_NAME" value="usttekininBaskaDenemesi" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SingletonTest" />
+        <item itemvalue="TestNG.SingletonTest.test4" />
+        <item itemvalue="TestNG.SingletonTest.test3" />
+        <item itemvalue="TestNG.PropertiesTest.test1" />
         <item itemvalue="TestNG.WebTables.test" />
-        <item itemvalue="TestNG.WebTables.usttekininBaskaDenemesi" />
-        <item itemvalue="TestNG.WebTables.printAllCellsByIndex" />
-        <item itemvalue="TestNG.WebTables.getRow" />
-        <item itemvalue="TestNG.WebTables.getASingleCellInOneRow" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687835242260</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tables">
+      <created>1687934023581</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687934023581</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +253,7 @@
     <MESSAGE value="iframe" />
     <MESSAGE value="wait" />
     <MESSAGE value="File Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Upload" />
+    <MESSAGE value="Tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tables" />
   </component>
 </project>
