@@ -1,5 +1,6 @@
 package com.krafttechnologie.utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -23,8 +24,26 @@ public class ConfigurationReader {
        }
    }
 
-   public static String get(String keyName){
-       return properties.getProperty(keyName);
-   }
+
+    public static String get(String keyName){
+        return properties.getProperty(keyName);
+    }
+
 
 }
+
+
+
+//    static {
+//        File src= new File("configuration.properties");
+//        try{
+//            FileInputStream input = new FileInputStream(src);
+//            properties= new Properties();
+//            properties.load(input);
+//            input.close();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//    }
+
+
