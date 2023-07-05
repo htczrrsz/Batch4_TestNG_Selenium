@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="TestBase">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_webtables/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/NegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/PositiveLoginTest.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="Page Object Model">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day16_pom2/DashboardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/BrowserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/PositiveLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +51,18 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NegativeLoginTest.listOfWebElement">
-    <configuration name="Exercise.exercise" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DashboardTest.navigateMenu_2">
+    <configuration name="DashboardTest.basicDashboardMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_webtables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day16_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_webtables.Exercise" />
-      <option name="METHOD_NAME" value="exercise" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day16_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day16_pom2.DashboardTest" />
+      <option name="METHOD_NAME" value="basicDashboardMenuTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,17 +70,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTest.listOfWebElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DashboardTest.navigateMenu_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day16_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.NegativeLoginTest" />
-      <option name="METHOD_NAME" value="listOfWebElement" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day16_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day16_pom2.DashboardTest" />
+      <option name="METHOD_NAME" value="navigateMenu_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,17 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTest.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DashboardTest.navigateMenu_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day16_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.NegativeLoginTest" />
-      <option name="METHOD_NAME" value="wrongPasswordTest" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day16_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day16_pom2.DashboardTest" />
+      <option name="METHOD_NAME" value="navigateMenu_2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,25 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTest.wrongUserNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.NegativeLoginTest" />
-      <option name="METHOD_NAME" value="wrongUserNameTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PositiveLoginTest.loginTest_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveLoginTest.loginTest_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +116,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
       <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.PositiveLoginTest" />
-      <option name="METHOD_NAME" value="loginTest_1" />
+      <option name="METHOD_NAME" value="loginTest_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveLoginTest.loginTest_3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="loginTest_3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NegativeLoginTest.listOfWebElement" />
-        <item itemvalue="TestNG.NegativeLoginTest.wrongUserNameTest" />
-        <item itemvalue="TestNG.NegativeLoginTest.wrongPasswordTest" />
-        <item itemvalue="TestNG.PositiveLoginTest.loginTest_1" />
-        <item itemvalue="TestNG.Exercise.exercise" />
+        <item itemvalue="TestNG.DashboardTest.navigateMenu_2" />
+        <item itemvalue="TestNG.DashboardTest.navigateMenu_1" />
+        <item itemvalue="TestNG.DashboardTest.basicDashboardMenuTest" />
+        <item itemvalue="TestNG.PositiveLoginTest.loginTest_3" />
+        <item itemvalue="TestNG.PositiveLoginTest.loginTest_2" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688412041805</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Page Object Model">
+      <created>1688498947649</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688498947649</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,6 +268,7 @@
     <MESSAGE value="File Upload" />
     <MESSAGE value="Tables" />
     <MESSAGE value="TestBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestBase" />
+    <MESSAGE value="Page Object Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Object Model" />
   </component>
 </project>

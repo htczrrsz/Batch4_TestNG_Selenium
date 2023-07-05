@@ -16,9 +16,6 @@ public class PositiveLoginTest extends TestBase {
         validate that you are on the dashboard with url
      */
 
-
-
-
     @Test
     public void loginTest_1() throws InterruptedException {
         driver.get(ConfigurationReader.get("url"));  // dinamik bicimde yazmis olduk
@@ -54,6 +51,45 @@ public class PositiveLoginTest extends TestBase {
 
     }
 
+
+    /**
+     go to kraft login page
+     login as Mike
+     validate that you are on the dashboard with url
+     use login(String username, String password)
+     */
+
+    @Test
+    public void loginTest_2(){
+        driver.get(ConfigurationReader.get("url"));
+        LoginPage loginPage= new LoginPage();
+
+//        call login() method
+        loginPage.login(ConfigurationReader.get("userEmail"),ConfigurationReader.get("userPassword"));
+
+        String expected="https://www.krafttechexlab.com/index";
+        String actual=driver.getCurrentUrl();
+        Assert.assertEquals(expected,actual);
+    }
+
+
+    /**
+     go to kraft login page
+     login as Mike
+     use login()
+     validate that you are on the dashboard with url
+     */
+    @Test
+    public void loginTest_3(){
+     driver.get(ConfigurationReader.get("url"));
+     LoginPage loginPage= new LoginPage();
+     loginPage.login();
+
+//     assertion
+        String expected="https://www.krafttechexlab.com/index";
+        String actual=driver.getCurrentUrl();
+        Assert.assertEquals(expected,actual);
+    }
 
 
 
