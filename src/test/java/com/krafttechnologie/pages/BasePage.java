@@ -20,6 +20,10 @@ public abstract class BasePage {
     public List<WebElement> upTitles;
 
 
+    @FindBy(css="[class='d-none d-md-block dropdown-toggle ps-2']")
+    public WebElement userAccountName;
+
+
     public void navigateToModule(String menu){
         String locator="//span[text()='" + menu + "']";
         Driver.get().findElement(By.xpath(locator)).click();
