@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="Page Object Model 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/EditProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/UserProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/AddExperienceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/DashboardTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/EditProfileTest.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="POM TESTS">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/AddExperiencePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/ExtentReportDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/PositiveLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/WrongUsernameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/AddExperienceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/AddExperienceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -51,71 +53,17 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EditProfileTest.editProfileTest">
-    <configuration name="DashboardTest2.verifyList" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PositiveLoginTest">
+    <configuration name="PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day17_pom3.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day17_pom3" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day17_pom3.DashboardTest2" />
-      <option name="METHOD_NAME" value="verifyList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashboardTest.navigateMenu_1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day16_pom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day16_pom2" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day16_pom2.DashboardTest" />
-      <option name="METHOD_NAME" value="navigateMenu_1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashboardTest.navigateMenu_2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day16_pom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day16_pom2" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day16_pom2.DashboardTest" />
-      <option name="METHOD_NAME" value="navigateMenu_2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditProfileTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day17_pom3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day17_pom3" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day17_pom3.EditProfileTest" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.PositiveLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -123,17 +71,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditProfileTest.editProfileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveLoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day17_pom3.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day17_pom3" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day17_pom3.EditProfileTest" />
-      <option name="METHOD_NAME" value="editProfileTest" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveLoginTest.loginTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="loginTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrongUsernameTest.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.WrongUsernameTest" />
+      <option name="METHOD_NAME" value="wrongPasswordTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrongUsernameTest.wrongUserEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.WrongUsernameTest" />
+      <option name="METHOD_NAME" value="wrongUserEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EditProfileTest.editProfileTest" />
-        <item itemvalue="TestNG.EditProfileTest" />
-        <item itemvalue="TestNG.DashboardTest2.verifyList" />
-        <item itemvalue="TestNG.DashboardTest.navigateMenu_2" />
-        <item itemvalue="TestNG.DashboardTest.navigateMenu_1" />
+        <item itemvalue="TestNG.PositiveLoginTest" />
+        <item itemvalue="TestNG.PositiveLoginTest.loginTest2" />
+        <item itemvalue="TestNG.PositiveLoginTest.loginTest" />
+        <item itemvalue="TestNG.WrongUsernameTest.wrongPasswordTest" />
+        <item itemvalue="TestNG.WrongUsernameTest.wrongUserEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688583829572</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="POM TESTS">
+      <created>1688703125228</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688703125228</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,6 +285,7 @@
     <MESSAGE value="TestBase" />
     <MESSAGE value="Page Object Model" />
     <MESSAGE value="Page Object Model 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Object Model 2" />
+    <MESSAGE value="POM TESTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM TESTS" />
   </component>
 </project>
