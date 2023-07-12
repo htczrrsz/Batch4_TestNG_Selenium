@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="POM TESTS">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/AddExperiencePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/ExtentReportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/PositiveLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/WrongUsernameTest.java" afterDir="false" />
+    <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="Screenshot and Report">
+      <change afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day19_xml_runners/VerifyUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNGXmlRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/AddExperienceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/AddExperienceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/EditProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/EditProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/JavaScriptExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/JavaScriptExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day18_extentReports/PositiveLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,25 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PositiveLoginTest">
+  <component name="RunManager" selected="TestNG./Users/hatice/IdeaProjects/Batch4_TestNG_Selenium/testNGXmlRunner.xml">
+    <configuration name="JavaScriptExecutorDemo.executor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day12_action_JS_FileUpload.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="executor" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
@@ -65,24 +84,6 @@
       <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
       <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.PositiveLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PositiveLoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.PositiveLoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -107,17 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrongUsernameTest.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyUserInfo.verifyTheJob" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day19_xml_runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.WrongUsernameTest" />
-      <option name="METHOD_NAME" value="wrongPasswordTest" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day19_xml_runners" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day19_xml_runners.VerifyUserInfo" />
+      <option name="METHOD_NAME" value="verifyTheJob" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,18 +126,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrongUsernameTest.wrongUserEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/hatice/IdeaProjects/Batch4_TestNG_Selenium/testNGXmlRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day18_extentReports.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day18_extentReports" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day18_extentReports.WrongUsernameTest" />
-      <option name="METHOD_NAME" value="wrongUserEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNGXmlRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/hatice/IdeaProjects/Batch4_TestNG_Selenium/testNGXmlRunner.xml" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.executor" />
+        <item itemvalue="TestNG.VerifyUserInfo.verifyTheJob" />
         <item itemvalue="TestNG.PositiveLoginTest" />
         <item itemvalue="TestNG.PositiveLoginTest.loginTest2" />
-        <item itemvalue="TestNG.PositiveLoginTest.loginTest" />
-        <item itemvalue="TestNG.WrongUsernameTest.wrongPasswordTest" />
-        <item itemvalue="TestNG.WrongUsernameTest.wrongUserEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688703125228</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Screenshot and Report">
+      <created>1689016292393</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689016292393</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,6 +286,7 @@
     <MESSAGE value="Page Object Model" />
     <MESSAGE value="Page Object Model 2" />
     <MESSAGE value="POM TESTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="POM TESTS" />
+    <MESSAGE value="Screenshot and Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screenshot and Report" />
   </component>
 </project>

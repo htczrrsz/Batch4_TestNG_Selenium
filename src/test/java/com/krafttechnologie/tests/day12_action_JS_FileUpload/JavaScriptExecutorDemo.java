@@ -36,7 +36,7 @@ public class JavaScriptExecutorDemo {
     @Test
     public void executor(){
         driver.get("https://www.amazon.com.tr/");
-//       driver.findElement(By.id("'sp-cc-accept'")).click();
+       driver.findElement(By.id("sp-cc-accept")).click();
         WebElement germany = driver.findElement(By.linkText("Almanya"));
 
         //germany.click();

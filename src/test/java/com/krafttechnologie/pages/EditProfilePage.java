@@ -37,4 +37,10 @@ public class EditProfilePage extends BasePage{
 
     }
 
+
+    public String getSelectedJob(){
+        Select select= new Select(jobInputBox);
+        return select.getFirstSelectedOption().getText();
+    }
+
 }

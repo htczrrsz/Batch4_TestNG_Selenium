@@ -42,4 +42,8 @@ public abstract class BasePage {
 
     }
 
+    public String getUserAccountName(){
+       return userAccountName.getText();
+    }
+
 }

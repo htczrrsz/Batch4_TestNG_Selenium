@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 public class PositiveLoginTest extends TestBase {
 
     @Test
-    public  void loginTest(){
+    public  void loginTest1(){
         LoginPage loginPage= new LoginPage();
-        extentLogger= report.createTest("Login Test");
+        extentLogger= report.createTest("Login Test 1");
 
         extentLogger.info("Go to Krafttech Login Page");
         driver.get(ConfigurationReader.get("url"));
-        extentLogger.info("Login method");
+        extentLogger.info("Login method 1");
         loginPage.login();
         System.out.println("1");
     }
