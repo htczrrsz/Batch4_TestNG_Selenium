@@ -1,5 +1,6 @@
 package com.krafttechnologie.tests.day11_waits;
 
+import com.krafttechnologie.utilities.Driver;
 import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +13,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class ExplicitWaitExample {
@@ -66,6 +68,7 @@ public class ExplicitWaitExample {
 
         WebElement message= driver.findElement(By.id("message"));
         Assert.assertEquals(message.getText(),"It's enabled!");
+
 
     }
 
