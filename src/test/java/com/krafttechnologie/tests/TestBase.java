@@ -6,6 +6,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.krafttechnologie.utilities.BrowserUtils;
 import com.krafttechnologie.utilities.ConfigurationReader;
 import com.krafttechnologie.utilities.Driver;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,7 +17,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -90,7 +94,7 @@ public class TestBase {
     @AfterMethod
     public void tearDown(ITestResult result) throws InterruptedException, IOException {
 //        if test fail
-        if (result.getStatus()==ITestResult.FAILURE){
+        if (result.getStatus() == ITestResult.FAILURE) {
             // Record the name of the failed test
             extentLogger.fail(result.getName());
 //            Take the screenshot and return the location of screenshot
@@ -99,10 +103,21 @@ public class TestBase {
             extentLogger.addScreenCaptureFromPath(screenshotPath);
 //            capture the exception and put inside the report
             extentLogger.fail(result.getThrowable());
+
+//            var camera = (TakesScreenshot) driver;
+//            File screenshot = camera.getScreenshotAs(OutputType.FILE);
+//            try {
+//                Files.move(screenshot.toPath(),
+//                        new File("test-output/Screenshots"+result.getName()+".png").toPath());
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+
+
         }
         Thread.sleep(2000);
         Driver.closeDriver();
+//    }
+
     }
-
-
 }

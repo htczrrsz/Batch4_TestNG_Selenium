@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="647938b9-f48f-4f8f-b37e-c3dca5184b7b" name="Changes" comment="data provider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ExplicitWaitExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ExplicitWaitExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,25 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProvider_LoginTest.loginTestWithDataProvider">
+  <component name="RunManager" selected="TestNG.DashboardTest.basicDashboardMenuTest">
+    <configuration name="DashboardTest.basicDashboardMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day16_pom2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day16_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day16_pom2.DashboardTest" />
+      <option name="METHOD_NAME" value="basicDashboardMenuTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataProvider_Demo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
@@ -123,23 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/hatice/IdeaProjects/Batch4_TestNG_Selenium/testNGXmlRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNGXmlRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DashboardTest.basicDashboardMenuTest" />
         <item itemvalue="TestNG.DataProvider_LoginTest.loginTestWithDataProvider" />
         <item itemvalue="TestNG.DataProvider_Demo.testTvShows" />
         <item itemvalue="TestNG.DataProvider_Demo" />
         <item itemvalue="TestNG.ExcelUtilDemo.readExcelFile" />
-        <item itemvalue="TestNG./Users/hatice/IdeaProjects/Batch4_TestNG_Selenium/testNGXmlRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689215749615</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="data provider">
+      <created>1689633306469</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689633306469</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
